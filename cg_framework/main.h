@@ -1,14 +1,6 @@
-#if defined(__APPLE__)
 #include <OpenGL/gl.h>
 #include <OpenGL/glu.h>
 #include <GLUT/glut.h>
-#else
-#include <GL/gl.h>
-#include <GL/glu.h>
-#endif
-// #include <GL/gl.h>
-// #include <GL/glu.h>
-// #include <GL/glut.h>
 #include <iostream>
 
 #include "definitions.h"

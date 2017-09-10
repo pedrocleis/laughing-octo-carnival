@@ -1,7 +1,7 @@
 CC = g++
 
 all:
-	$(CC) main.cpp -I . -o cgprog -framework GLUT -framework OpenGL
+	$(CC) main.cpp -lglut -lGLU -lGL -I. -o cgprog
 
 clean:
 	rm cgprog
