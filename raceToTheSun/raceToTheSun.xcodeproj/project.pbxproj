@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7208254C1FB293DE00D7AB08 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7208254B1FB293DE00D7AB08 /* main.cpp */; };
-		724EBFB81FB2913C00BBC822 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724EBFB71FB2913C00BBC822 /* Cocoa.framework */; };
-		724EBFBA1FB2914100BBC822 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724EBFB91FB2914100BBC822 /* GLUT.framework */; };
-		724EBFBC1FB2914900BBC822 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 724EBFBB1FB2914900BBC822 /* OpenGL.framework */; };
+		725111081FB52744004445E6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 725111071FB52744004445E6 /* main.cpp */; };
+		725111101FB5275F004445E6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7251110F1FB5275F004445E6 /* Cocoa.framework */; };
+		725111121FB52764004445E6 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725111111FB52764004445E6 /* OpenGL.framework */; };
+		725111141FB5276A004445E6 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725111131FB5276A004445E6 /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		724EBFAA1FB2912200BBC822 /* CopyFiles */ = {
+		725111021FB52744004445E6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -26,66 +26,64 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7208254B1FB293DE00D7AB08 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		7208254D1FB2948F00D7AB08 /* obstacles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = obstacles.h; sourceTree = "<group>"; };
-		7208254E1FB294CB00D7AB08 /* playerSpaceship.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = playerSpaceship.h; sourceTree = "<group>"; };
-		720825511FB295B200D7AB08 /* spaceshipText.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spaceshipText.mtl; sourceTree = "<group>"; };
-		720825521FB295B200D7AB08 /* spaceship.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = spaceship.obj; sourceTree = "<group>"; };
-		724EBFAC1FB2912200BBC822 /* projetoCg */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = projetoCg; sourceTree = BUILT_PRODUCTS_DIR; };
-		724EBFB71FB2913C00BBC822 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		724EBFB91FB2914100BBC822 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
-		724EBFBB1FB2914900BBC822 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		725111041FB52744004445E6 /* raceToTheSun */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = raceToTheSun; sourceTree = BUILT_PRODUCTS_DIR; };
+		725111071FB52744004445E6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7251110F1FB5275F004445E6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		725111111FB52764004445E6 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		725111131FB5276A004445E6 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		725111151FB52799004445E6 /* obstacles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = obstacles.h; sourceTree = "<group>"; };
+		725111161FB527CA004445E6 /* playerSpaceship.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = playerSpaceship.h; sourceTree = "<group>"; };
+		725111171FB52846004445E6 /* spaceship.obj */ = {isa = PBXFileReference; lastKnownFileType = text; path = spaceship.obj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		724EBFA91FB2912200BBC822 /* Frameworks */ = {
+		725111011FB52744004445E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				724EBFBC1FB2914900BBC822 /* OpenGL.framework in Frameworks */,
-				724EBFBA1FB2914100BBC822 /* GLUT.framework in Frameworks */,
-				724EBFB81FB2913C00BBC822 /* Cocoa.framework in Frameworks */,
+				725111141FB5276A004445E6 /* GLUT.framework in Frameworks */,
+				725111121FB52764004445E6 /* OpenGL.framework in Frameworks */,
+				725111101FB5275F004445E6 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		724EBFA31FB2912200BBC822 = {
+		725110FB1FB52744004445E6 = {
 			isa = PBXGroup;
 			children = (
-				724EBFAE1FB2912200BBC822 /* projetoCg */,
-				724EBFAD1FB2912200BBC822 /* Products */,
-				724EBFB61FB2913C00BBC822 /* Frameworks */,
+				725111061FB52744004445E6 /* raceToTheSun */,
+				725111051FB52744004445E6 /* Products */,
+				7251110E1FB5275F004445E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		724EBFAD1FB2912200BBC822 /* Products */ = {
+		725111051FB52744004445E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				724EBFAC1FB2912200BBC822 /* projetoCg */,
+				725111041FB52744004445E6 /* raceToTheSun */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		724EBFAE1FB2912200BBC822 /* projetoCg */ = {
+		725111061FB52744004445E6 /* raceToTheSun */ = {
 			isa = PBXGroup;
 			children = (
-				7208254B1FB293DE00D7AB08 /* main.cpp */,
-				7208254D1FB2948F00D7AB08 /* obstacles.h */,
-				7208254E1FB294CB00D7AB08 /* playerSpaceship.h */,
-				720825511FB295B200D7AB08 /* spaceshipText.mtl */,
-				720825521FB295B200D7AB08 /* spaceship.obj */,
+				725111071FB52744004445E6 /* main.cpp */,
+				725111151FB52799004445E6 /* obstacles.h */,
+				725111161FB527CA004445E6 /* playerSpaceship.h */,
+				725111171FB52846004445E6 /* spaceship.obj */,
 			);
-			path = projetoCg;
+			path = raceToTheSun;
 			sourceTree = "<group>";
 		};
-		724EBFB61FB2913C00BBC822 /* Frameworks */ = {
+		7251110E1FB5275F004445E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				724EBFBB1FB2914900BBC822 /* OpenGL.framework */,
-				724EBFB91FB2914100BBC822 /* GLUT.framework */,
-				724EBFB71FB2913C00BBC822 /* Cocoa.framework */,
+				725111131FB5276A004445E6 /* GLUT.framework */,
+				725111111FB52764004445E6 /* OpenGL.framework */,
+				7251110F1FB5275F004445E6 /* Cocoa.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -93,68 +91,68 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		724EBFAB1FB2912200BBC822 /* projetoCg */ = {
+		725111031FB52744004445E6 /* raceToTheSun */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 724EBFB31FB2912200BBC822 /* Build configuration list for PBXNativeTarget "projetoCg" */;
+			buildConfigurationList = 7251110B1FB52744004445E6 /* Build configuration list for PBXNativeTarget "raceToTheSun" */;
 			buildPhases = (
-				724EBFA81FB2912200BBC822 /* Sources */,
-				724EBFA91FB2912200BBC822 /* Frameworks */,
-				724EBFAA1FB2912200BBC822 /* CopyFiles */,
+				725111001FB52744004445E6 /* Sources */,
+				725111011FB52744004445E6 /* Frameworks */,
+				725111021FB52744004445E6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = projetoCg;
-			productName = projetoCg;
-			productReference = 724EBFAC1FB2912200BBC822 /* projetoCg */;
+			name = raceToTheSun;
+			productName = raceToTheSun;
+			productReference = 725111041FB52744004445E6 /* raceToTheSun */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		724EBFA41FB2912200BBC822 /* Project object */ = {
+		725110FC1FB52744004445E6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Gustavo Colaço";
 				TargetAttributes = {
-					724EBFAB1FB2912200BBC822 = {
+					725111031FB52744004445E6 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 724EBFA71FB2912200BBC822 /* Build configuration list for PBXProject "projetoCg" */;
+			buildConfigurationList = 725110FF1FB52744004445E6 /* Build configuration list for PBXProject "raceToTheSun" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 724EBFA31FB2912200BBC822;
-			productRefGroup = 724EBFAD1FB2912200BBC822 /* Products */;
+			mainGroup = 725110FB1FB52744004445E6;
+			productRefGroup = 725111051FB52744004445E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				724EBFAB1FB2912200BBC822 /* projetoCg */,
+				725111031FB52744004445E6 /* raceToTheSun */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		724EBFA81FB2912200BBC822 /* Sources */ = {
+		725111001FB52744004445E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7208254C1FB293DE00D7AB08 /* main.cpp in Sources */,
+				725111081FB52744004445E6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		724EBFB11FB2912200BBC822 /* Debug */ = {
+		725111091FB52744004445E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,7 +200,7 @@
 			};
 			name = Debug;
 		};
-		724EBFB21FB2912200BBC822 /* Release */ = {
+		7251110A1FB52744004445E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,14 +241,14 @@
 			};
 			name = Release;
 		};
-		724EBFB41FB2912200BBC822 /* Debug */ = {
+		7251110C1FB52744004445E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		724EBFB51FB2912200BBC822 /* Release */ = {
+		7251110D1FB52744004445E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -260,25 +258,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		724EBFA71FB2912200BBC822 /* Build configuration list for PBXProject "projetoCg" */ = {
+		725110FF1FB52744004445E6 /* Build configuration list for PBXProject "raceToTheSun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				724EBFB11FB2912200BBC822 /* Debug */,
-				724EBFB21FB2912200BBC822 /* Release */,
+				725111091FB52744004445E6 /* Debug */,
+				7251110A1FB52744004445E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		724EBFB31FB2912200BBC822 /* Build configuration list for PBXNativeTarget "projetoCg" */ = {
+		7251110B1FB52744004445E6 /* Build configuration list for PBXNativeTarget "raceToTheSun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				724EBFB41FB2912200BBC822 /* Debug */,
-				724EBFB51FB2912200BBC822 /* Release */,
+				7251110C1FB52744004445E6 /* Debug */,
+				7251110D1FB52744004445E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 724EBFA41FB2912200BBC822 /* Project object */;
+	rootObject = 725110FC1FB52744004445E6 /* Project object */;
 }

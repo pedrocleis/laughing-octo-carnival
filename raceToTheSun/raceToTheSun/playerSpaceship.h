@@ -1,11 +1,10 @@
 //
 //  playerSpaceship.h
-//  projetoCg
+//  raceToTheSun
 //
-//  Created by Gustavo Colaco on 07/11/17.
+//  Created by Gustavo Colaco on 09/11/17.
 //  Copyright © 2017 Gustavo Colaço. All rights reserved.
 //
-
 
 #ifndef playerSpaceship_h
 #define playerSpaceship_h

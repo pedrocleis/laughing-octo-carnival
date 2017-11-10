@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>projetoCg.xcscheme</key>
+		<key>raceToTheSun.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>724EBFAB1FB2912200BBC822</key>
+		<key>725111031FB52744004445E6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

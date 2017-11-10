@@ -1,8 +1,8 @@
 //
 //  main.cpp
-//  projetoCg
+//  raceToTheSun
 //
-//  Created by Gustavo Colaco on 07/11/17.
+//  Created by Gustavo Colaco on 09/11/17.
 //  Copyright © 2017 Gustavo Colaço. All rights reserved.
 //
 
@@ -26,9 +26,9 @@ void free_mem(void)
 // setando as teclas para interação com o game!
 void SpecialKeys(int tecla, int x, int y){
     
-    //movimento da nave
+    
     switch(tecla){
-            
+            //movimento da nave
         case GLUT_KEY_LEFT:
             posX -= 0.018;
             break;
@@ -37,8 +37,6 @@ void SpecialKeys(int tecla, int x, int y){
             posX += 0.018;
             break;
     }
-    
-    
 }
 
 //---------------------------------------------------------------
